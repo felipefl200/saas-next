@@ -1,0 +1,15 @@
+{
+	"name": "@saas/api",
+	"version": "1.0.0",
+	"scripts": {
+		"dev": "tsx watch src/index.ts"
+	},
+	"dependencies": {
+		"@saas/auth": "*"
+	},
+	"devDependencies": {
+		"@saas/tsconfig": "*",
+		"@types/node": "^22.13.1",
+		"tsx": "^4.19.2"
+	}
+}
